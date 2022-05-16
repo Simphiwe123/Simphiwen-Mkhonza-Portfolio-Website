@@ -9,11 +9,13 @@ var lName = document.getElementById('lName');
 var mail = document.getElementById('mail');
 var Password = document.getElementById('Password');
 var imagess = document.getElementById('imagess');
+var phone=document.getElementById('phone');
 
     sessionStorage.setItem('Name', Name.value);
     sessionStorage.setItem('lName',lName.value);
     sessionStorage.setItem('mail',mail.value);
     sessionStorage.setItem('Password', Password.value);
+    sessionStorage.setItem('phone' , phone.value);
     sessionStorage.setItem('imagess', imagess.value);
     alert('Your account has been created');
     window.location.href = "index.html";
