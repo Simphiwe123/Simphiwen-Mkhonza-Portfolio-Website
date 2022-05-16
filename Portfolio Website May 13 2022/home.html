@@ -1,0 +1,196 @@
+<DOCTYPE html>
+    <html>
+    <head>
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="styling/mystyle.css">
+    <link rel="stylesheet" href="styling/rquery.css">
+   
+    </head>
+    <body>
+
+        
+    <div id="top">
+        <nav>
+            <img src="images/img_35214.png" id="sqricon">
+            <h4 id="nh41"><a href="">Featured</a></h4>
+            <h4 id="nh42"><a href="">New Release</a></h4>
+            <button type="submit"></button>
+            <input type="search" placeholder="Search..." id="sc">
+            <img src="images/rrlogo.png" id="amazonl">
+        </nav>
+        <div id="books">
+            <div id="fbooks">
+               
+                <h3 id="nr"></h3>
+               <div id="tbb1">
+                <div id="book1_d"> <h2 id="h21"></h2>
+                <p id="p1d"></p>
+                </div>
+               
+               </div>
+               <div id="dimgtop1"><a href="https://www.amazon.com/dp/1710399449"><img src="images/rs=w_600,cg_true.webp" id="resbook1"></a></div> 
+               
+               <div id="tbb2">
+               
+                    <div id="book2_d"> <h2 id="h22"></h2>
+                        <p id="p2d"></p>
+               
+               </div></div>
+               <div id="dimgtop2"><a href="https://www.amazon.com/dp/1986089304"><img src="images/1986089304.01._SCLZZZZZZZ_SX500_.jpg" id="resbook2"></a></div>
+
+
+               <div id="tbb3">
+                
+                    <div id="book3_d"> <h2 id="h23"></h2>
+                        <p id="p3d"></p>
+                </div>
+               </div>
+               <div id="dimgtop3"><a href="https://openlibrary.org/works/OL69503W/Peak_Performance"><img src="images/10858619-L.jpg" id="resbook3"></a></div>
+
+               <div id="tbb4">
+
+    <div id="book4_d"> <h2 id="h24"></h2>
+        <p id="p4d"></p>
+</div>
+
+               </div>
+               <div id="dimgtop4"><a href="https://openlibrary.org/books/OL3414326M/Wildfire"><img src="images/10858364-L.jpg" id="resbook4"></a></div>
+               
+               
+               <button id="slideBack" type="button"><h1 id="e112"><b><</b></h1></button>
+               <button id="slide" type="button"><h1 id="e11"><b>></b></h1></button>
+               <script>
+                   var button = document.getElementById('slide');
+button.onclick = function () {
+    var container = document.getElementById('fbooks');
+    sideScroll(container,'right',25,100,10);
+};
+
+var back = document.getElementById('slideBack');
+back.onclick = function () {
+    var container = document.getElementById('fbooks');
+    sideScroll(container,'left',25,100,10);
+};
+
+function sideScroll(element,direction,speed,distance,step){
+    scrollAmount = 0;
+    var slideTimer = setInterval(function(){
+        if(direction == 'left'){
+            element.scrollLeft -= step;
+        } else {
+            element.scrollLeft += step;
+        }
+        scrollAmount += step;
+        if(scrollAmount >= distance){
+            window.clearInterval(slideTimer);
+        }
+    }, speed);
+}
+
+               </script>
+
+               
+               
+            </div>
+
+            <div id="nbooks">
+                <h3 id="nr1"></h3>
+                
+            <div id="b1"><a href="https://www.bookbub.com/books/his-flower-queen-by-lena-hart?ebook_deal"><img src="images/pro_pbid_19944.webp" id="imgb1"><h4 id="h4b1"></h4></a>
+            
+                <p align="center" id="blbooksname1"></p>
+                <center><div id="label2">Thriller</div></center>
+            </div>
+            <div id="b2"><a href="https://www.bookbub.com/books/happily-ever-after-by-jenn-faulk?ebook_deal"><img src="images/pro_pbid_1199739.webp" id="imgb2"><h4 h4 id="h4b2"></h4></a>
+            
+            
+                <p align="center" id="blbooksname2"></p>
+              <center><div id="label2">Fiction</div></center>
+            </div>
+            <div id="b3"><a href="https://www.bookbub.com/books/club-shadowlands-by-cherise-sinclair?ebook_deal"><img src="images/pro_pbid_5297.webp" id="imgb3"><h4 h4 id="h4b3"></h4>
+        </a>
+        <p align="center" id="blbooksname3"></p>
+        <center><div id="label3">Fiction</div></center>
+    </div>
+            <div id="b4"><a href="https://www.bookbub.com/books/sign-off-by-patricia-mclinn?ebook_deal"><img src="images/pro_pbid_6432.webp" id="imgb4"><h4 id="h4b4"></h4></a>
+            <p align="center" id="blbooksname4"></p>
+            <center><div id="label4">Fiction</div></center>
+            
+            </div>
+            <div id="b5"><a href="https://www.bookbub.com/books/deliver-me-by-farrah-rochon?ebook_deal"><img src="images/pro_pbid_9300.webp" id="imgb5"><h4 id="h4b5"></h4>
+                
+                
+                <p align="center" id="blbooksname5"></p>
+                <center><div id="label5">Fiction</div></center>
+            </div>
+                <div id="fame">
+
+
+
+
+                    <center><h2 id="fauthor"></h2></center>
+                   <div id="author1"><img src="images/download.jpg" id="img1"><div id="aname1"><h2 id="author11"></h2><p id="bookno1"></p></div></div>
+                   <hr>
+                   <div id="author2"><img src="images/shutterstock_editorial_9689901an.webp" id="img2"><div id="aname2"><h2 id="author12"></h2><p id="bookno2"></p></div></div>
+                   <hr>
+                   <div id="author3"><img src="images/Danielle-Steel-1024x1024.jpg" id="img3"><div id="aname3"><h2 id="author13"></h2><p id="bookno3"></p></div></div> 
+                    
+          
+
+                </div>
+               
+
+            </div>
+        </div>
+    <div id="sarah">
+        <center><img src="images/Corporate-headshots-of-women-NJ-New-Jersey.jpg" id="wimg" ></center>
+
+
+
+
+
+
+        <br><br>
+    <div id="saraw">
+       <h3 id="Welcomeid"></h3> 
+       <script>
+
+var namell=localStorage.getItem('Name');
+const sname=[namell];
+document.getElementById('namelog').innerHTML=[0];
+       </script>
+        <center><h1 id="namelog"></h1></center>
+
+
+    </div>
+     </div>
+
+   <div id="plinks">
+       <br> <br>
+       <a href="#"><img src="images/k.png" id="kicon"> My Kindle Board</a>
+       <br> <br>
+       <a href="#"><img src="images/collection-1-512.webp" id="icon1"> Collections</a>
+       <br> <br>
+       <a href="#"><img src="images/196_Flag_Instagram_Interface_Save_Tag-512.webp" id="icon2"> Saved</a>
+       <br> <br>
+       <a href="#"><img src="images/62644-profile-account-google-icons-computer-user-iconfinder.png" id="icon3"> Profile</a>
+       <br> <br>
+       <a href="index.html"><img src="images/logout-icon-vector-13489977.jpg" id="icon4"> Logout</a>
+  
+   </div>
+   
+
+    </div>
+    <script src="myscripts/real.js"></script>
+    <h3 id="blogo">Product of<br><img src="images/amazon-logo-transparent.png" id="bimglogo"></h3>
+ 
+
+
+   
+    </body>
+    <script src="myscripts/log.js"> </script>
+    <script>
+        document.getElementById('namelog').innerHTML = sessionStorage.getItem('Name');
+    </script>
+    </html>

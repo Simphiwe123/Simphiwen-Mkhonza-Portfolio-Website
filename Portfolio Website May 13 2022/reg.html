@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+
+            <title></title>
+            <link rel="stylesheet" href="styling/log_and_reg.css">
+   
+        </head>
+        <body>
+            <nav>
+  
+                <img src="images/Amazon_Kindle_logo.svg" id="amazonl">
+            </nav><br><br>
+          
+
+
+
+
+            <div id="rdiv" >
+                <center><h1 id="regt"></h1></center> 
+                <br><br>
+                 
+                 <form name="RegForm" action="index.html"  method="post">
+                   
+                   <center>
+                     <div>
+               
+                         <input type="text" id="Name" size="60" name="array[]" placeholder="Name" required>
+                       </div>
+                       <br>
+                       <div>
+                         
+                         <input type="text" id="lName" size="60" name="array[]" placeholder="Surname" required>
+                       </div>
+                       <br>
+                       <div>
+                        
+                         <input type="text" id="mail" size="60" name="array[]" placeholder="Email" required>
+                       </div>
+                       <br>
+                       <div>
+                         
+                         <input type="password" id="Password" size="60" name="array[]" placeholder="Password" required>
+                       </div>
+                      
+                       <br>
+                       <div>
+                         
+                         <p>Profile Photo: </p><input type="file" id="imagess" name="array[]">
+           
+                 
+                       </div>
+                       <br>
+                       <input type="submit" value="Register" id="Submit1" onclick="reg()" >
+                      <p>Have an account click<a href="index.html"> here </a>to login.</p>
+                       </div>
+                   </center>
+                   
+                 </form>
+                 
+               </div>
+        </body>
+        <script src="myscripts/log.js"></script>
+
+    </html>

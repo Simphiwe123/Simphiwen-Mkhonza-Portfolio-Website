@@ -1,0 +1,131 @@
+.w3docs {
+    margin-left: 70px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif, bold, Arial, Helvetica;
+    font-size: 14px;
+  }
+  
+  
+  div input {
+    margin-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+  }
+ 
+  form input {
+    padding: 10px;
+  }
+  form select {
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  #rdiv{
+      width: 60%;
+      height: auto;
+      background-color: antiquewhite;
+      float: left;
+      margin-left: 15%;
+      margin-top: 5%;
+
+  }
+  #bimglogo{
+      height: 100px;
+      width: 150px;
+      float: left;
+      margin-top: 0%;
+      margin-left: 0%;
+  }#footerr
+  {
+
+    width: 50%;
+    height: auto;
+    float: left;
+   
+    margin-left: 15%;
+  }
+  #amazonl{
+   left: 50%;
+   margin-top: 3%;
+    margin-left: 10%;
+  }
+
+  .w3docs {
+    margin-left: 70px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif, bold, Arial, Helvetica;
+    font-size: 14px;
+  }
+  
+  
+  div input {
+    margin-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+  }
+ 
+  form input {
+    padding: 10px;
+  }
+  form select {
+    background-color: #ffffff;
+    padding: 5px;
+  }
+ 
+
+  
+  #rdiv1,#rdiv{
+    width: 60%;
+      height: 10%;
+      background-color: transparent;
+      float: left;
+      margin-left: 20%;
+      margin-top: 3%;
+      border-style: outset;
+      border-radius: 10px 10px 10px 10px;
+  }
+
+  #bimglogo{
+      height: 100px;
+      width: 150px;
+      float: left;
+      margin-top: 0%;
+      margin-left: 0%;
+  }#footerr
+  {
+
+    width: 50%;
+    height: auto;
+    float: left;
+   
+    margin-left: 15%;
+  }
+ 
+  .RegForm{
+
+    height: 100%;
+
+  }
+
+
+  h2{
+    float: left;
+    margin-left: 5%;
+
+  }
+  @media screen and (max-width: 900px){
+    div input {
+   width: 30%;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  #amazonl{
+   
+    left: 50%;
+   margin-top: 3%;
+    margin-left: 10%;
+    width: 70%;
+
+
+  }}

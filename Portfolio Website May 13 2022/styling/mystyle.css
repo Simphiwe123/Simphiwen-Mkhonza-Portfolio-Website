@@ -1,0 +1,381 @@
+  
+      
+    
+    #top{
+        height:100%;
+        width:100%;
+        background-color:white;
+       
+        }
+       
+      
+        #sarah{
+            background-color:#C0C0C0 ;
+            height: 45%;
+            width: 16%;
+            margin-top: 4%;
+            border-radius: 0px 60px 60px 0px;
+    
+        }
+        #wimg{
+            width: 30%;
+            height: 30%;
+            border-radius: 20px 20px 20px 20px;
+            margin-top: 20%;
+        }
+        #plinks{
+            background-color: transparent ;
+            height: 40%;
+            width: 12%;
+            margin-top: 0;
+            float:left;
+            margin-left: 2%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #icon1,#icon2,#icon3,#icon4,#kicon{
+    
+            width: 15px;
+            height: 15px;
+        }
+        #books{
+            background-color: transparent;
+            height:85%;
+            width: 80%;
+            float:right;
+            margin-top: 4%;
+        }
+        #fbooks{
+           
+            width:auto;
+            height: 55%;
+          background-color:transparent;
+          position: relative;
+            margin-top: 0%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+                
+        }
+        #slideBack{
+           
+            position: fixed;
+            left: 22%;
+            top: 20%;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        outline-style:initial;
+        cursor: pointer;
+        background: url("images/forward-arrow-icon-4.png");
+        background-color: black;
+
+            
+
+
+        }
+        #slide{
+            position: fixed;
+            float: right;
+            margin-right: 2%;
+            top: 20%;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        outline-style:initial;
+        cursor: pointer;
+        background: url("images/forward-arrow-icon-4.png");
+        background-color: black;
+
+        }
+        #e11,#e112{
+            color: white;
+        }
+        #nbooks{
+            background-color: transparent;
+            width: 100%;
+            height: 50%;
+          
+              
+        }
+        #fame{
+            background-color: lightgray ;
+            width: 25%;
+            height: 100%;
+            float: right;
+            border-radius: 60px 0px 0px 60px;
+            margin-top: 0%; 
+            
+        }
+        #img1,#img2,#img3{
+            width: 18%;
+            height: 100%;
+            float: left;
+            margin-top:0% ;
+            border-radius: 60px 60px 60px 60px;
+            vertical-align: middle;
+            margin-left: 3%;
+           
+        }
+       
+       #b1{
+           margin-top: 3%;
+           height: 85%;
+           width: 12%;
+           float: left;
+           background-color: transparent;
+           border-radius: 30px 30px 30px 30px;
+       }
+       #imgb1{
+           height: 70%;
+           width: 100%;
+           border-radius: 30px 30px 30px 30px;
+    
+       }
+    
+    /*book2, 3, 4, and 5*/
+       #b2,#b3,#b4,#b5{
+           margin-top: 3%;
+           height: 85%;
+           width: 12%;
+           float: left;
+           background-color: transparent;
+           margin-left: 3%;
+           border-radius: 30px 30px 30px 30px;
+       }
+       #imgb2,#imgb3,#imgb4,#imgb5{
+           height: 70%;
+           width: 100%;
+           border-radius: 30px 30px 30px 30px;
+    
+       }
+       #author1,#author2,#author3{
+           width: 100%;
+           background-color:transparent;
+           height: 20%;
+           margin-top: 0%;
+    
+       }
+    
+     hr{
+         width: 100%;
+         color: white;
+     }
+     h3{
+        margin-left: 25%;
+        margin-top: 0%;
+        vertical-align: middle;
+     }
+     h4{
+         text-align: center;
+     }
+     #nr,#nr1{
+         margin-left: 0%;
+        
+     }
+     #tbb1{
+        width: 28%;
+         height: 40%;
+         float: left;
+         
+         border-radius: 30px 30px 30px 30px;
+         margin-top: 13%;
+         background-image: url("images/download (1).jpg");
+         
+         
+     }
+     #tbb4{
+        width: 28%;
+         height: 40%;
+         float: left;
+         margin-left: 90%;
+         border-radius: 30px 30px 30px 30px;
+         margin-top: 13%;
+         background-image:url("images/171213-F-SE307-0266-scaled.jpg") ;
+         position: absolute;
+     }
+     #tbb2{
+        width: 28%;
+         height: 40%;
+         float: left;
+         margin-left: 2%;
+         border-radius: 30px 30px 30px 30px;
+         margin-top: 13%;
+         background-image: url("images/black-white-forest-pathway-plain.jpg");
+     }
+     #tbb3{
+        width: 28%;
+         height: 40%;
+         float: left;
+         margin-left: 2%;
+         border-radius: 30px 30px 30px 30px;
+         margin-top: 13%;
+         background-image: url("images/444961-full-size-blue-sky-wallpaper-2560x1600-high-resolution.jpg");
+     }
+     #imgtop1{
+        width: 28%;
+         height: 40%;
+         float: left;
+         
+         border-radius: 30px 30px 30px 30px;
+         margin-top: 13%;
+         background-image: url("images/download (1).jpg");
+     }
+     #dimgtop1{
+        height: 70%;
+         width: 10%;
+         float: left;
+         margin-left: 2%;
+         margin-top: 2%;
+         background-color:lightslategrey;
+         border-radius: 30px 30px 30px 30px;
+         position:absolute;
+    
+     }
+    
+     #dimgtop2{
+        height: 70%;
+         width: 10%;
+         float: left;
+         margin-left: 32%;
+         margin-top: 2%;
+         background-color:red;
+         border-radius: 30px 30px 30px 30px;
+         position:absolute;
+    
+     }
+    
+     #dimgtop3{
+        height: 70%;
+         width: 10%;
+         float: left;
+         margin-left: 62%;
+         margin-top: 2%;
+         background-color:red;
+         border-radius: 30px 30px 30px 30px;
+         position:absolute;
+     }
+     #dimgtop4{
+        height: 70%;
+         width: 10%;
+         float: left;
+         margin-left: 92%;
+         margin-top: 2%;
+         background-color:red;
+         border-radius: 30px 30px 30px 30px;
+         position:absolute;
+     }
+    
+    
+     /*book image*/
+     #resbook1,#resbook2,#resbook3,#resbook4{
+         height: 100%;
+         width: 100%;
+         border-radius: 30px 30px 30px 30px;
+     }
+    
+    
+    
+    
+    
+     nav{
+        margin-top: 0%;
+         height: 5%;
+         width: 80%;
+        
+         float:right;
+     }
+     #nh41,#nh42{
+         float: right;
+         margin-right: 5%;
+         margin-top: 1%;
+     }
+     #sqricon{
+    
+        float: right;
+         margin-right: 1%;
+         margin-top: 1%;
+         width: 15px;
+            height: 15px;
+     }
+     button{
+         float: right;
+         margin-right: 5%;
+         margin-top: 0.5%;
+         border-radius: 0px 30px 30px 0px;
+         height: 70%;
+         width: 50px;
+         border-left: 0ch;
+         background-color: transparent;
+        
+         background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+      cursor: pointer;
+      opacity: 0.7;
+    }
+     
+    button[type="submit"]:hover {
+      opacity: 1;
+    }
+     #sc{
+        float: right;
+         margin-right: 0%;
+         margin-top: 0.5%;
+         border-radius: 30px 0px 0px 30px;
+         height: 70%;
+         border-right:0ch;
+         background-color: transparent;
+         width: 20%;
+         text-align: center;
+     }
+     #amazonl{
+         float: left;
+         height: 100%;
+         width: auto;
+         margin-left: 0%;
+     }
+     #blogo{
+         margin-left: 2%;
+         float: left;
+     }
+     #bimglogo{
+         
+         height: 8%;
+        
+     }
+     
+     #book1_d,#book2_d,#book3_d,#book4_d{
+         float: right;
+         height: 80%;
+         background-color:transparent;
+         width: 55%;
+         margin-top: 4%;
+         color:white;
+     }
+     #aname1, #aname2, #aname3{
+         height: 80%;
+         width: 70%;
+         float: right;
+         background-color:transparent;
+         color: black;
+     }
+     #saraw{
+         width: 100%;
+         height: auto;
+         background-color: transparent;
+     }
+     F
+     #label, #label2, #label3, #label4, #label5{
+         background-color:lightgrey;
+         width: 80%;
+         height: auto;
+         float: left;
+         margin-left: 4%;
+         border-radius: 10px 10px 10px 10px;
+         text-align: center;
+         color: black;
+    
+     }

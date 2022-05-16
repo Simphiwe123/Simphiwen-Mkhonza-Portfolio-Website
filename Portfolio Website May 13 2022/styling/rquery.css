@@ -1,0 +1,258 @@
+@media screen and (max-width: 1058px) {
+    /*CONT FOR TOP AND BOTOM BOOKS*/
+      #top{
+          background-color: transparent;
+          width: 100%;
+  
+      }
+       /*BOOKS TOP AND BOTOM*/
+      #books{
+          background-color:transparent;
+          margin-top:5%;
+          width: 100%;
+          margin-left: 0%;
+  
+  
+      }
+    
+      /*SARAH IMAGE*/
+      #wimg{
+  
+          height: 25%;
+          width: 20%;
+          float: right;
+          margin-top: 2%;
+          margin-right: 30%;
+      }
+      #Welcomeid{
+          float: right;
+          margin-right: 0%;
+          margin-top: 5%;
+          margin-right: 25%;
+      }
+      #namelog{
+          float: right;
+          margin-right: 30%;
+          margin-top: 0.5%;
+          font-size:20px ;
+      }
+      #sc{
+          float: right;
+           margin-right: 0%;
+           margin-top: 0.5%;
+           border-radius: 30px 0px 0px 30px;
+           height: 70%;
+           border-right:0ch;
+           background-color: transparent;
+           width: 20%;
+           text-align: center;
+      }
+      body{
+          background-color: transparent;
+      }
+      #fbooks{
+          background-color:transparent;
+          width:auto;
+              height: 60%;
+     
+            position: relative;
+              margin-top: 0%;
+              overflow: auto;
+        white-space: nowrap;
+      }
+      #tbb1{
+          width: 0%;
+           height: 0%;
+           float: left;
+    
+           border-radius: 30px 30px 30px 30px;
+           margin-top: 47%;
+          /* background-image: url("download (1).jpg");*/
+  
+      }
+      #tbb4{
+          width: 0%;
+           height: 0%;
+           float: left;
+           margin-left: 107%;
+           border-radius: 30px 30px 30px 30px;
+           margin-top: 47%;
+           background-image:url("171213-F-SE307-0266-scaled.jpg") ;
+           position: absolute;
+       }
+       #tbb2{
+          width: 0%;
+           height: 0%;
+           float: left;
+           margin-left: 19%;
+           border-radius: 30px 30px 30px 30px;
+           margin-top: 47%;
+           background-image: url("black-white-forest-pathway-plain.jpg");
+       }
+       #tbb3{
+          width: 0%;
+           height: 0%;
+           float: left;
+           margin-left: 19%;
+           border-radius: 30px 30px 30px 30px;
+           margin-top: 47%;
+           background-image: url("444961-full-size-blue-sky-wallpaper-2560x1600-high-resolution.jpg");
+       }
+       #resbook1,#resbook2,#resbook3,#resbook4{
+           height: 100%;
+           width: 100%;
+           border-radius: 30px 30px 30px 30px;
+       }
+       #dimgtop1{
+          height: 70%;
+           width: 70%;
+           float: left;
+           margin-left: 2%;
+           margin-top: 15%;
+           background-color:transparent;
+           border-radius: 30px 30px 30px 30px;
+           position:absolute;
+      
+       }
+      
+       #dimgtop2{
+          height: 70%;
+           width: 70%;
+           float: left;
+           margin-left: 85%;
+           margin-top: 15%;
+           background-color:transparent;
+           border-radius: 30px 30px 30px 30px;
+           position:absolute;
+      
+       }
+      
+       #dimgtop3{
+          height: 70%;
+           width: 70%;
+           float: left;
+           margin-left: 165%;
+           margin-top: 15%;
+           background-color:transparent;
+           border-radius: 30px 30px 30px 30px;
+           position:absolute;
+       }
+       #dimgtop4{
+          height: 70%;
+           width: 70%;
+           float: left;
+           margin-left: 255%;
+           margin-top: 15%;
+           background-color:transparent;
+           border-radius: 30px 30px 30px 30px;
+           position:absolute;
+       }
+       #nbooks{
+           background-color: transparent;
+           height: 80%;
+           width: 100%;
+       }
+      
+      #b1, #b2,#b3,#b4,#b5{
+             margin-top: 3%;
+             height: 85%;
+             width: 70%;
+             float: left;
+             background-color: transparent;
+             margin-left: 15%;
+            
+         }
+         #fame{
+             background-color: transparent;
+             margin-top: 100px;
+             width: 100%;
+             border-radius: 0px 0px 0px 0px;
+         }
+         #plinks{
+          background-color: transparent;
+             margin-top: 700px;
+             margin-top: 2900px;
+             width: 100%;
+             margin-left: 0%;
+             text-align: center;
+         }
+         #sqricon{
+      
+      float: right;
+       margin-right: 1%;
+       margin-top: 0%;
+       width: 15px;
+          height: 15px;
+   }
+   
+   #amazonl{
+           float: left;
+           height: 100%;
+           width: 17%;
+           margin-left: 0%;
+  }
+  #label, #label2, #label3, #label4, #label5{
+           background-color:lightgrey;
+           width: 80%;
+           height: auto;
+           float: left;
+           margin-left: 7%;
+           border-radius: 10px 10px 10px 10px;
+           text-align: center;
+           color: black;
+  }
+nav{
+    background-color: transparent;
+    width: 100%;
+    height: 5%;
+
+}
+#nh41,#nh42{
+   margin-right: 1%;
+
+
+
+
+}
+#book1_d,#book2_d,#book3_d,#book4_d{
+    float: right;
+    height: 80%;
+    background-color:transparent;
+    width: 55%;
+    margin-top: 4%;
+    color:transparent;
+}
+#sqricon,#sarah{
+    width: 0%;
+    height: 0%;
+    color: transparent;
+}
+
+#slideBack{
+           
+  
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+
+
+}
+#slide{
+   
+    height: 0px;
+    width: 0px;
+    
+
+}
+#e11,#e112{
+    color: transparent;
+
+}}
+@media screen and (max-width: 370px){
+    #amazonl{
+        float: left;
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+    
+}}
