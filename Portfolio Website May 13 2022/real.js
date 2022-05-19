@@ -61,6 +61,8 @@ document.getElementById('regt').innerHTML=logandreg[1];
 
 
 
+
+
     
    
        

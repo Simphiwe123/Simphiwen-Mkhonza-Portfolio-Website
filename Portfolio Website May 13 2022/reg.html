@@ -20,39 +20,39 @@
                 <center><h1 id="regt"></h1></center> 
                 <br><br>
                  
-                 <form name="RegForm" action="index.html"  method="post">
+                 <form name="RegForm" id="RegForm" action="index.html"  method="post">
                    
                    <center>
                      <div>
                
-                         <input type="text" id="Name" size="60" name="array[]" placeholder="Name" required>
+                         <input type="text" id="Name" size="60" name="array1" placeholder="Name" required>
                        </div>
                        <br>
                        <div>
                          
-                         <input type="text" id="lName" size="60" name="array[]" placeholder="Surname" required>
+                         <input type="text" id="lName" size="60" name="array2" placeholder="Surname" required>
                        </div>
                        <br>
                        <div>
                         
-                         <input type="text" id="mail" size="60" name="array[]" placeholder="Email" required>
+                         <input type="text" id="mail" size="60" name="array3" placeholder="Email" required>
                        </div>
                        <br>
 
                        <div>
                         
-                        <input type="text" id="phone" size="60" name="array[]" placeholder="Phone numbers" required>
+                        <input type="text" id="phone" size="60" name="array4" placeholder="Phone numbers" required>
                       </div>
                       <br>
                        <div>
                          
-                         <input type="password" id="Password" size="60" name="array[]" placeholder="Password" required>
+                         <input type="password" id="Password" size="60" name="array5" placeholder="Password" required>
                        </div>
                       
                        <br>
                        <div>
                          
-                         <p>Profile Photo: </p><input type="file" id="imagess" name="array[]">
+                         <p>Profile Photo: </p><input type="file" id="imagess" name="array6" >
            
                  
                        </div>
@@ -67,5 +67,16 @@
                </div>
         </body>
         <script src="log.js"></script>
+        <script>
+          const img = document.getElementById('imagess');
+          img.addEventListener("change", function(){
+          var readimgfile= new FileReader();
+              readimgfile.onload= function(){
+                  sessionStorage.setItem('imagess', readimgfile.result);
+                  //alert(readimgfile.result);
+              }
+          readimgfile.readAsDataURL(this.files[0]);
+      });
+        </script>
 
     </html>

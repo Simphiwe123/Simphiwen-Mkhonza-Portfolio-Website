@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="styling/rquery.css">
    
     </head>
-    <body>
+    <body onload="changeTheImage()">
 
         
     <div id="top">
         <nav>
-            <img src="images/img_35214.png" id="sqricon">
+            <img src="images/fourdots_80930.png" id="sqricon">
             <h4 id="nh41"><a href="">Featured</a></h4>
             <h4 id="nh42"><a href="">New Release</a></h4>
             <button type="submit"></button>
@@ -143,8 +143,14 @@ function sideScroll(element,direction,speed,distance,step){
 
             </div>
         </div>
+        <div id="sidem">
     <div id="sarah">
-        <center><img src="images/Corporate-headshots-of-women-NJ-New-Jersey.jpg" id="wimg" ></center>
+        <div id="displayimg">
+            <img src="" id="profileimg">
+
+
+        </div>
+        
 
 
 
@@ -155,8 +161,13 @@ function sideScroll(element,direction,speed,distance,step){
     <div id="saraw">
        <h3 id="Welcomeid"></h3> 
        <script>
+            const img=document.getElementById("profileimg");
+    img.src=sessionStorage.getItem("imagess");
+    document.getElementById("namelog").innerText = sessionStorage.getItem("Name");
 
-var namell=localStorage.getItem('Name');
+
+
+var namell=sessionStorage.getItem('Name');
 const sname=[namell];
 document.getElementById('namelog').innerHTML=[0];
        </script>
@@ -179,7 +190,7 @@ document.getElementById('namelog').innerHTML=[0];
        <a href="index.html"><img src="images/logout-icon-vector-13489977.jpg" id="icon4"> Logout</a>
   
    </div>
-   
+</div>
 
     </div>
     <script src="myscripts/real.js"></script>
