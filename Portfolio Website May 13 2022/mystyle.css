@@ -374,6 +374,9 @@
          margin-top: 4%;
          color:white;
      }
+     #h21,#h22,#h23,#h24{
+        font-size: 17px;
+     }
      #aname1, #aname2, #aname3{
          height: 80%;
          width: 70%;
@@ -408,7 +411,7 @@
          position: absolute;
      }
      #sidem{
-         background-color: transparent;
+         background-color:transparent;
          height:100%;
          width: 16%;
          position: fixed;

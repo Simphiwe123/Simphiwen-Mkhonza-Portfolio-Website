@@ -13,7 +13,6 @@ var mail = document.getElementById('mail');
 var Password = document.getElementById('Password');
 var imagess = document.getElementById('imagess');
 var phone=document.getElementById('phone');
-var locationreg = '';
 
 
 var Fname=document.getElementById('Name').value;
@@ -28,68 +27,66 @@ var pwd_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
 
 if(Fname==''){
     alert("Name is required");
-    this.location.href = locationreg;
+    this.location.href="reg.html";
     
 }
 
 else if(!letters.test(Fname)){
     alert('Name field required only alphabet characters');
-    this.location.href = locationreg;
+    this.location.href="reg.html";
 }
 
 
 
 else if(Lname==''){
     alert("Surname is required");
-    this.location.href = locationreg;
+    this.location.href="reg.html";
 
 }
 
 
 else if(!letters.test(Lname)){
     alert('Surname field required only alphabet characters');
-    this.location.href = locationreg;
+    this.location.href="reg.html";
 
 }
 
 
 else if(emailll==''){
     alert("Email is required");
-    this.location.href = locationreg;
+    this.location.href="reg.html";
 }
 
 
 else if(!filter.test(emailll)){
     alert('Invalid email');
-    this.location.href=locationreg;
-
+    this.location.href="reg.html";
 }
 
 
 else if(cnumber==''){
     alert("Phone number is required");
-    this.location.href=locationreg;
+    this.location.href="reg.html";
 
 }
 
 
 else if(!re.test(cnumber)){
     alert('Invalid Phone Number');
-    this.location.href=locationreg;
+    this.location.href="reg.html";
 
 }
 
 else if(cnumber.length < 10 && cnumber.length >10){
     alert('Invalid Phone Number');
-    this.location.href=locationreg;
-
+    this.location.href="reg.html";
 
 }
         
 
 else if(passwd==''){
     alert("Password number is required");
-    this.location.href=locationreg;
+    this.location.href="reg.html";
 }
 
 
@@ -100,7 +97,7 @@ else if(!pwd_expression.test(passwd)){
 
 else if(passwd.length < 8){
     alert("Password require 8 characters");
-    this.location.href=locationreg;
+    this.location.href="reg.html";
 
 
 }

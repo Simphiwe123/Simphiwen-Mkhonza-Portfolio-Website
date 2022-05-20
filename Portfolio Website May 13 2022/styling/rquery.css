@@ -14,6 +14,12 @@
   
   
       }
+      #sidem{
+          width: 100%;
+          height: 30%;
+          top: 8%;
+          position: absolute;
+      }
     
       /*SARAH IMAGE*/
       #wimg{
@@ -56,7 +62,7 @@
               height: 60%;
      
             position: relative;
-              margin-top: 0%;
+              margin-top: 35%;
               overflow: auto;
         white-space: nowrap;
       }
@@ -171,10 +177,11 @@
          #plinks{
           background-color: transparent;
              margin-top: 700px;
-             margin-top: 2900px;
+             margin-top: 800%;
              width: 100%;
              margin-left: 0%;
              text-align: center;
+             position: absolute;
          }
          #sqricon{
       
@@ -222,12 +229,20 @@ nav{
     margin-top: 4%;
     color:transparent;
 }
-#sqricon,#sarah{
+#sqricon{
     width: 0%;
     height: 0%;
     color: transparent;
 }
-
+#sarah{
+    width: 100%;
+    background-color:transparent;
+    height: 100%;
+    color: transparent;
+    float: right;
+    position: inherit;
+    border-radius: 0px 0px 0px 0px;
+}
 #slideBack{
            
   
@@ -247,12 +262,96 @@ nav{
 #e11,#e112{
     color: transparent;
 
-}}
+}
+#profileimg{
+
+  
+    width: 20%;
+    height: 50%;
+    top: 0%;
+   left: 35%;
+    position:absolute;
+    background-color: black;
+
+}
+#saraw{
+background-color:transparent;
+height: 46%;
+top:-48%;
+position: absolute;
+color: transparent;
+
+}
+#blogo{
+    position: absolute;
+    top: 500%;
+    width: 20%;
+    height: 50%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 370px){
     #amazonl{
         float: left;
         height: 100%;
         width: 100%;
         margin-left: 0%;
+        
     
-}}
+}
+#sarah{
+    width: 100%;
+    background-color:transparent;
+    height: 100%;
+    float: right;
+    position: inherit;
+    border-radius: 0px 0px 0px 0px;
+}
+#sidem{
+    width: 100%;
+    height: 30%;
+    top: 15%;
+}
+#profileimg{
+
+    width: 20%;
+    height: 50%;
+    top: 0%;
+    left: 35%;
+    position:absolute;
+    background-color:transparent;
+}
+#saraw{
+    background-color:transparent;
+    height: 46%;
+    top:-20%;
+    position: absolute;
+    color: transparent;
+    }
+
+}
