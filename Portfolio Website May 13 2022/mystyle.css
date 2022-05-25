@@ -109,6 +109,36 @@
         background-color: black;
 
         }
+        #bslideBack{
+           
+            position: fixed;
+            left: 22%;
+            top: 75%;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        outline-style:initial;
+        cursor: pointer;
+        background: url("images/forward-arrow-icon-4.png");
+        background-color: black;
+
+            
+
+
+        }
+        #bslide{
+            position: fixed;
+          right: 18%;
+            top: 75%;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        outline-style:initial;
+        cursor: pointer;
+        background: url("images/forward-arrow-icon-4.png");
+        background-color: black;
+
+        }
         #e11,#e112{
             color: white;
             top: 50%;
@@ -116,18 +146,38 @@
         }
         #nbooks{
             background-color: transparent;
-            width: 100%;
-            height: 50%;
+            width:75%;
+            height: 100%;
+            margin-top: 0%;
+            overflow-x: hidden;
+           overflow-y: hidden;
+            white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
           
               
         }
+        #blwscroll{
+            background-color: transparent;
+            width: 100%;
+            height: 50%;
+
+        }
+        #xscroll{
+            background-color: transparent;
+            width: 150%;
+            height: 100%;
+            display: flex;
+
+        }
         #fame{
             background-color: lightgray ;
-            width: 25%;
-            height: 100%;
+            width: 20%;
+            height: 45%;
             float: right;
+            right: 0%;
             border-radius: 60px 0px 0px 60px;
-            margin-top: 0%; 
+            top: 60%; 
+            position: absolute;
             
         }
         #img1,#img2,#img3{
@@ -142,32 +192,80 @@
         }
        
        #b1{
-           margin-top: 3%;
-           height: 85%;
-           width: 12%;
+           margin-top: 0%;
+           height: 80%;
+           width: 15%;
            float: left;
            background-color: transparent;
+           margin-left: 5%;
            border-radius: 30px 30px 30px 30px;
        }
+
+       #b2{
+        margin-top: 0%;
+        height: 80%;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        background-color: transparent;
+        border-radius: 30px 30px 30px 30px;
+    }
+    #b3{
+        margin-top: 0%;
+        height: 80%;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        background-color: transparent;
+        border-radius: 30px 30px 30px 30px;
+    }
+    #b4{
+        margin-top: 0%;
+        height: 80%;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        background-color: transparent;
+        border-radius: 30px 30px 30px 30px;
+    }
+    #b5{
+        margin-top: 0%;
+        height: 80%;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        background-color: transparent;
+        border-radius: 30px 30px 30px 30px;
+    }
+    #b6{
+        margin-top: 0%;
+        height: 80%;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        background-color: transparent;
+        border-radius: 30px 30px 30px 30px;
+        
+    }
+    #b7{
+        margin-top: 0%;
+        height: 80%;
+        width: 15%;
+        float: left;
+        margin-left: 5%;
+        background-color: transparent;
+        border-radius: 30px 30px 30px 30px;
+    }
        #imgb1{
-           height: 70%;
+           height: 100%;
            width: 100%;
            border-radius: 30px 30px 30px 30px;
     
        }
     
-    /*book2, 3, 4, and 5*/
-       #b2,#b3,#b4,#b5{
-           margin-top: 3%;
-           height: 85%;
-           width: 12%;
-           float: left;
-           background-color: transparent;
-           margin-left: 3%;
-           border-radius: 30px 30px 30px 30px;
-       }
-       #imgb2,#imgb3,#imgb4,#imgb5{
-           height: 70%;
+   
+       #imgb2,#imgb3,#imgb4,#imgb5,#imgb6{
+           height: 100%;
            width: 100%;
            border-radius: 30px 30px 30px 30px;
     
@@ -316,7 +414,7 @@
      #sqricon{
     
         float: right;
-         margin-right: 1%;
+         margin-right: 4%;
          margin-top: 1%;
          width: 15px;
             height: 15px;
@@ -416,3 +514,135 @@
          width: 16%;
          position: fixed;
      }
+     #scart{
+        float: right;
+        margin-right: 4%;
+        margin-top: 1%;
+        width: 20px;
+        height: 20px; 
+     }
+#myBtn,#myBtn1{
+    height: 70%;
+           width: 100%;
+           border-radius: 30px 30px 30px 30px;
+           float: right; 
+           border-width: 0px;
+}
+#namentop1,#namentop2{
+    width: 100%;
+    height: 20%;
+    background-color:transparent;
+    margin-top: 138%;
+}
+#imgb11,#imgb12{
+    width: 30%;
+    height: 40%;
+
+}
+#divpar1,#divpar2{
+    height: 40%;
+    width: 80%;
+    background-color:wheat;
+}
+     #adcbtn{
+         height: 10%;
+         width: 20%;
+         background-color: orange;
+         color: white;
+border-width: 0px;
+         margin-top: 5%;
+         border-radius: 30px 30px 30px 30px;
+        
+     }
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 70%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  /*///////////////////////////////////////////////////////////////////////////////*/
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 70%;
+  }
+  
+  /* The Close Button */
+  .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

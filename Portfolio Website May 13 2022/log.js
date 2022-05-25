@@ -14,7 +14,7 @@ var Password = document.getElementById('Password');
 var imagess = document.getElementById('imagess');
 var phone=document.getElementById('phone');
 
-
+//validation
 var Fname=document.getElementById('Name').value;
 var Lname=document.getElementById('lName').value;
 var emailll=document.getElementById('mail').value;
@@ -85,7 +85,7 @@ else if(cnumber.length < 10 && cnumber.length >10){
         
 
 else if(passwd==''){
-    alert("Password number is required");
+    alert("Password is required");
     this.location.href="reg.html";
 }
 

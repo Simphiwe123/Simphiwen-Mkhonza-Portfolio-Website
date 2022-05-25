@@ -15,12 +15,14 @@ document.getElementById("p2d").innerHTML=booksd1[1];
 document.getElementById("p3d").innerHTML=booksd1[2];
 document.getElementById("p4d").innerHTML=booksd1[3];
 
-const blbooks=["His Flower Queen","Happily Ever After","Club Shadowlands","Sign Off","Deliver Me"];
+const blbooks=["His Flower Queen","Happily Ever After","Club Shadowlands","Sign Off","Deliver Me","Vengeance","The Deal"];
 document.getElementById("h4b1").innerHTML=blbooks[0];
 document.getElementById("h4b2").innerHTML=blbooks[1];
 document.getElementById("h4b3").innerHTML=blbooks[2];
 document.getElementById("h4b4").innerHTML=blbooks[3];
 document.getElementById("h4b5").innerHTML=blbooks[4];
+document.getElementById("h4b6").innerHTML=blbooks[5];
+document.getElementById("h4b7").innerHTML=blbooks[6];
 
 const author_names=["J.K. Rowling","Stephen King","Danielle Steel","Famous Authors"];
 document.getElementById("author11").innerHTML=author_names[0];
@@ -40,12 +42,14 @@ document.getElementById("bookno3").innerHTML=num_books[2];
 
 
 
-const bl_books_names=["Lena Hart","Jenn Faulk","Charise Sinclair","Patricia McLinn","Farrah Rochon",namell];
+const bl_books_names=["Lena Hart","Jenn Faulk","Charise Sinclair","Patricia McLinn","Farrah Rochon","Vanessa Kier","Stella Gray"];
 document.getElementById("blbooksname1").innerHTML=bl_books_names[0];
 document.getElementById("blbooksname2").innerHTML=bl_books_names[1];
 document.getElementById("blbooksname3").innerHTML=bl_books_names[2];
 document.getElementById("blbooksname4").innerHTML=bl_books_names[3];
 document.getElementById("blbooksname5").innerHTML=bl_books_names[4];
+document.getElementById("blbooksname6").innerHTML=bl_books_names[5];
+document.getElementById("blbooksname7").innerHTML=bl_books_names[6];
 
 
 const side_div=["Welcome back"];
