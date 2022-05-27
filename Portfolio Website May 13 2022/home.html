@@ -15,7 +15,7 @@
 
            
 
-            <img src="images/-shopping-cart_90604.png" id="scart">
+            <a href="cart.html"><img src="images/-shopping-cart_90604.png" id="scart"></a>
             <img src="images/fourdots_80930.png" id="sqricon">
             <h4 id="nh41"><a href="">Featured</a></h4>
             <h4 id="nh42"><a href="">New Release</a></h4>
@@ -64,35 +64,7 @@
                
                <button id="slideBack" type="button"><h1 id="e112"><b><</b></h1></button>
                <button id="slide" type="button"><h1 id="e11"><b>></b></h1></button>
-               <script>
-                   var button = document.getElementById('slide');
-button.onclick = function () {
-    var container = document.getElementById('fbooks');
-    sideScroll(container,'right',40,100,25);
-};
-
-var back = document.getElementById('slideBack');
-back.onclick = function () {
-    var container = document.getElementById('fbooks');
-    sideScroll(container,'left',40,100,25);
-};
-
-function sideScroll(element,direction,speed,distance,step){
-    scrollAmount = 0;
-    var slideTimer = setInterval(function(){
-        if(direction == 'left'){
-            element.scrollLeft -= step;
-        } else {
-            element.scrollLeft += step;
-        }
-        scrollAmount += step;
-        if(scrollAmount >= distance){
-            window.clearInterval(slideTimer);
-        }
-    }, speed);
-}
-
-               </script>
+               <script src="slide.js"></script>
 
                
                
@@ -107,45 +79,34 @@ function sideScroll(element,direction,speed,distance,step){
                     <h3 id="nr1"></h3>
                     <div id="xscroll">
 
-   <div id="b1"><button id="myBtn"><img src="images/pro_pbid_19944.webp" id="imgb1"></button>
+   <div id="b1"><button id="myBtn" onclick="F1()"><img src="images/pro_pbid_19944.webp" id="imgb1"></button>
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
           <span class="close">&times;</span>
-          <center><img src="images/pro_pbid_19944.webp" id="imgb11"></center>
-         <center> <div id="divpar1"></div></center>
-         <center><input type="button" value="BUY" id="adcbtn"></center>
+          <img src="images/pro_pbid_19944.webp" id="imgb11">
+         <center> <div id="divpar1"><h1 id="topicss1"></h1><center>
+             <pre id="discr1">
+
+                Lies can be toxic…
+Gabe is a shrewd businessman to one of Las Vegas’ upscale resort and casinos. 
+What he wants, he naturally takes—and he wants Nina. Held in a bitter divorce, 
+Gabe finds it difficult to put his trust in anyone. Until Nina. But there’s 
+one person keeping him from having her—his soon-to-be ex-wife.
+
+
+
+             </pre></center>
+           
+            </div></center>
+            
+         
         </div>
       
       </div>
-      <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-          modal.style.display = "block";
-        }
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-          modal.style.display = "none";
-        }
-        
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-        </script>
+      
+    <script src="popup.js"></script>
     <div id="namentop1">
         <h4 id="h4b1"></h4>
                 
@@ -157,44 +118,20 @@ function sideScroll(element,direction,speed,distance,step){
    
                 </div>
                 
-                    <div id="b2"><button id="myBtn1"><img src="images/pro_pbid_1199739.webp" id="imgb2"></button>
+                    <div id="b2"><button id="myBtn1" onclick="F2()"><img src="images/pro_pbid_1199739.webp" id="imgb2"></button>
                         <div id="myModal1" class="modal1">
                     
                             <!-- Modal content -->
                             <div class="modal-content1">
                               <span class="close1">&times;</span>
-                              <center><img src="images/pro_pbid_1199739.webp" id="imgb12"></center>
-                             <center> <div id="divpar2"></div></center>
-                             <center><input type="button" value="BUY" id="adcbtn"></center>
+                              <img src="images/pro_pbid_1199739.webp" id="imgb12">
+                             <center> <div id="divpar2"><h1>2</h1></div></center>
+                             <center><input type="button" value="Add To Cart" id="adcbtn2"></center>
                             </div>
                           
                           </div>
-                          <script>
-                            // Get the modal
-                            var modal = document.getElementById("myModal1");
-                            
-                            // Get the button that opens the modal
-                            var btn = document.getElementById("myBtn1");
-                            
-                            // Get the <span> element that closes the modal
-                            var span = document.getElementsByClassName("close1")[0];
-                            
-                            // When the user clicks the button, open the modal 
-                            btn.onclick = function() {
-                              modal.style.display = "block";
-                            }
-                            
-                            // When the user clicks on <span> (x), close the modal
-                            span.onclick = function() {
-                              modal.style.display = "none";
-                            }
-                            
-                            // When the user clicks anywhere outside of the modal, close it
-                            window.onclick = function(event) {
-                              if (event.target == modal) {
-                                modal.style.display = "none";
-                              }
-                            }
+                          <script src="popup.js">
+                             
                             </script>
                   <div id="namentop1">
                     <h4 id="h4b2"></h4>
@@ -204,73 +141,134 @@ function sideScroll(element,direction,speed,distance,step){
             
                 </div>
                 </div>
-                <div id="b3"><a href="https://www.bookbub.com/books/club-shadowlands-by-cherise-sinclair?ebook_deal"><img src="images/pro_pbid_5297.webp" id="imgb3"><h4 h4 id="h4b3"></h4>
-            </a>
+                <div id="b3"><button id="myBtn3" onclick="F3()"><img src="images/pro_pbid_5297.webp" id="imgb3"></button>
+                    <div id="myModal2" class="modal2">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content2">
+                          <span class="close2">&times;</span>
+                          <center><img src="images/pro_pbid_5297.webp" id="imgb13"></center>
+                         <center> <div id="divpar3"><h1>3</h1></div></center>
+                         <center><input type="button" value="Add To Cart" id="adcbtn3"></center>
+                        </div>
+                      
+                      </div>
+                      <script src="popup.js"></script>
+
+<div id="namentop1">
+                    
+                    <h4 h4 id="h4b3"></h4>
+           
             <p align="center" id="blbooksname3"></p>
             <center><div id="label3">Fiction</div></center>
         </div>
-                <div id="b4"><a href="https://www.bookbub.com/books/sign-off-by-patricia-mclinn?ebook_deal"><img src="images/pro_pbid_6432.webp" id="imgb4"><h4 id="h4b4"></h4></a>
+        </div>
+
+
+
+
+                <div id="b4"><button id="myBtn4" onclick="F4()"><img src="images/pro_pbid_6432.webp" id="imgb4"></button>
+                    
+                    <div id="myModal3" class="modal3">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content3">
+                          <span class="close3">&times;</span>
+                          <img src="images/pro_pbid_6432.webp" id="imgb14">
+                         <center> <div id="divpar4"><h1>4</h1></div></center>
+                         <center><input type="button" value="Add To Cart" id="adcbtn4"></center>
+                        </div>
+                    </div>
+
+                    <script src="popup.js"></script>
+                    <div id="namentop4">
+                    <h4 id="h4b4"></h4>
                 <p align="center" id="blbooksname4"></p>
                 <center><div id="label4">Fiction</div></center>
-                
                 </div>
-                <div id="b5"><a href="https://www.bookbub.com/books/deliver-me-by-farrah-rochon?ebook_deal"><img src="images/pro_pbid_9300.webp" id="imgb5"><h4 id="h4b5"></h4>
+                </div>
+
+
+
+
+
+                <div id="b5"><button id="myBtn5" onclick="F5()"><img src="images/pro_pbid_9300.webp" id="imgb5"></button>
+                    
+                    <div id="myModal4" class="modal4">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content4">
+                          <span class="close4">&times;</span>
+                         <img src="images/pro_pbid_9300.webp" id="imgb14">
+                         <center> <div id="divpar5"><h1>5</h1></div></center>
+                         <center><input type="button" value="Add To Cart" id="adcbtn5"></center>
+                        </div>
+                    </div>
+                    <script src="popup.js"></script>
+                    <div id="namentop5">
+                    <h4 id="h4b5"></h4>
                     
                     
                     <p align="center" id="blbooksname5"></p>
                     <center><div id="label5">Fiction</div></center>
                 </div>
+                </div>
 
 
-                <div id="b6"><a href="https://www.bookbub.com/books/vengeance-by-vanessa-kier?ebook_deal"><img src="images/pro_pbid_1058593.webp" id="imgb6"><h4 id="h4b6">Vengeance</h4>
+                <div id="b6"><button id="myBtn6" onclick="F6()"><img src="images/pro_pbid_1058593.webp" id="imgb6"></button>
+                    
+                    <div id="myModal5" class="modal5">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content5">
+                          <span class="close5">&times;</span>
+                         <img src="images/pro_pbid_1058593.webp" id="imgb14">
+                         <center> <div id="divpar6"><h1>6</h1></div></center>
+                         <center><input type="button" value="Add To Cart" id="adcbtn6"></center>
+                        </div>
+                    </div>
+                    <script src="popup.js"></script>
+                    
+                    
+                    <div id="namentop6">
+                    <h4 id="h4b6">Vengeance</h4>
                     
                     
                     <p align="center" id="blbooksname6">Vanessa Kier</p>
                     <center><div id="label5">Fiction</div></center>
                 </div>
+                </div>
 
 
 
-                <div id="b7"><a href="https://www.bookbub.com/books/the-deal-by-stella-gray?ebook_deal"><img src="images/pro_pbid_4479470.webp" id="imgb4"><h4 id="h4b7">The Deal</h4></a>
+                <div id="b7"><button id="myBtn7" onclick="F7()"><img src="images/pro_pbid_4479470.webp" id="imgb4"></button>
+                    <div id="myModal6" class="modal6">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content6">
+                          <span class="close6">&times;</span>
+                        <img src="images/pro_pbid_4479470.webp" id="imgb14">
+                         <center> <div id="divpar7"><h1>7</h1></div></center>
+                         <center><input type="button" value="Add To Cart" id="adcbtn7"></center>
+                        </div>
+                    </div>
+                    <script src="popup.js"> </script>
+                    
+                    
+                     <div id="namentop7">
+                    <h4 id="h4b7">The Deal</h4>
                     <p align="center" id="blbooksname7">Stella Gray</p>
                     <center><div id="label4">Fiction</div></center>
                     
                     </div>
+                </div>
 
 
                     <button id="bslideBack" type="button"><h1 id="e112"><b><</b></h1></button>
                <button id="bslide" type="button"><h1 id="e11"><b>></b></h1></button>
 
 
-               <script>
-                var button = document.getElementById('bslide');
-button.onclick = function () {
- var container = document.getElementById('nbooks');
- sideScroll(container,'right',40,100,25);
-};
-
-var back = document.getElementById('bslideBack');
-back.onclick = function () {
- var container = document.getElementById('nbooks');
- sideScroll(container,'left',40,100,25);
-};
-
-function sideScroll(element,direction,speed,distance,step){
- scrollAmount = 0;
- var slideTimer = setInterval(function(){
-     if(direction == 'left'){
-         element.scrollLeft -= step;
-     } else {
-         element.scrollLeft += step;
-     }
-     scrollAmount += step;
-     if(scrollAmount >= distance){
-         window.clearInterval(slideTimer);
-     }
- }, speed);
-}
-
-            </script>
+               <script src="slide.js"></script>
     
                     </div>
              
