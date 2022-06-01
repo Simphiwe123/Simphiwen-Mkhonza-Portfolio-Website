@@ -40,7 +40,7 @@
                 </div>
                 <div class="total">
                   <h1 class="cart-total">TOTAL</h1>
-                    <span class="total-price">$0</span>
+                    <span class="total-price">R0</span>
                       <button class="purchase-btn">PURCHASE</button>
                 </div>
               </div>
@@ -111,11 +111,11 @@
     <div id="myNav1" class="overlay1">
         <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
         <div class="overlay-content1">
-          <a href="#">1</a>
+          
           <div class="card-1 card">
-           
+            <img class="product-image" src="images/pro_pbid_19944.webp" alt="">
               <button class="add-to-cart">Add to cart</button>
-                <span class="product-price">$1395</span>
+                <span class="product-price">R1395</span>
           </div>
          
         </div>
@@ -140,7 +140,11 @@
                         <div id="myNav2" class="overlay2">
                             <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
                             <div class="overlay-content2">
-                              <a href="#">2</a>
+                                <div class="card-2 card">
+                                    <img class="product-image" src="images/pro_pbid_1199739.webp" alt="">
+                                      <button class="add-to-cart">Add to cart</button>
+                                        <span class="product-price">R600</span>
+                                  </div>
                             
                             </div>
                           </div>
@@ -164,7 +168,11 @@
                     <div id="myNav3" class="overlay3">
                         <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times;</a>
                         <div class="overlay-content3">
-                          <a href="#">3</a>
+                            <div class="card-3 card">
+                                <img class="product-image" src="images/pro_pbid_5297.webp" alt="">
+                                  <button class="add-to-cart">Add to cart</button>
+                                    <span class="product-price">R800</span>
+                              </div>
                          
                         </div>
                       </div>
@@ -191,7 +199,11 @@
                     <div id="myNav4" class="overlay4">
                         <a href="javascript:void(0)" class="closebtn4" onclick="closeNav4()">&times;</a>
                         <div class="overlay-content4">
-                          <a href="#">4</a>
+                            <div class="card-4 card">
+                                <img class="product-image" src="images/pro_pbid_6432.webp" alt="">
+                                  <button class="add-to-cart">Add to cart</button>
+                                    <span class="product-price">R500</span>
+                              </div>
                          
                         </div>
                       </div>
@@ -216,7 +228,11 @@
                     <div id="myNav5" class="overlay5">
                         <a href="javascript:void(0)" class="closebtn5" onclick="closeNav5()">&times;</a>
                         <div class="overlay-content5">
-                          <a href="#">5</a>
+                            <div class="card-5 card">
+                                <img class="product-image" src="images/pro_pbid_9300.webp" alt="">
+                                  <button class="add-to-cart">Add to cart</button>
+                                    <span class="product-price">R500</span>
+                              </div>
                          
                         </div>
                       </div>
@@ -241,8 +257,11 @@
                     <div id="myNav6" class="overlay6">
                         <a href="javascript:void(0)" class="closebtn6" onclick="closeNav6()">&times;</a>
                         <div class="overlay-content6">
-                          <a href="#">6</a>
-                         
+                            <div class="card-6 card">
+                                <img class="product-image" src="images/pro_pbid_1058593.webp" alt="">
+                                  <button class="add-to-cart">Add to cart</button>
+                                    <span class="product-price">R700</span>
+                              </div>
                         </div>
                       </div>
                       <span style="font-size:30px;cursor:pointer" onclick="openNav6()"><img src="images/pro_pbid_1058593.webp" id="imgb6"></span>
@@ -265,7 +284,11 @@
                     <div id="myNav7" class="overlay7">
                         <a href="javascript:void(0)" class="closebtn7" onclick="closeNav7()">&times;</a>
                         <div class="overlay-content7">
-                          <a href="#">7</a>
+                            <div class="card-7 card">
+                                <img class="product-image" src="images/pro_pbid_4479470.webp" alt="">
+                                  <button class="add-to-cart">Add to cart</button>
+                                    <span class="product-price">R1100</span>
+                              </div>
                          
                         </div>
                       </div>
@@ -450,7 +473,121 @@ cartModalOverlay.addEventListener('click', (e) => {
     cartModalOverlay.style.transform = 'translateX(-200%)'
   }
 })
+// add products to cart
+const addToCart = document.getElementsByClassName('add-to-cart');
+const productRow = document.getElementsByClassName('product-row');
 
+for (var i = 0; i < addToCart.length; i++) {
+  button = addToCart[i];
+  button.addEventListener('click', addToCartClicked)
+}
+
+function addToCartClicked (event) {
+  button = event.target;
+  var cartItem = button.parentElement;
+  var price = cartItem.getElementsByClassName('product-price')[0].innerText;
+  
+  var imageSrc = cartItem.getElementsByClassName('product-image')[0].src;
+  addItemToCart (price, imageSrc);
+  updateCartPrice()
+}
+
+function addItemToCart (price, imageSrc) {
+  var productRow = document.createElement('div');
+  productRow.classList.add('product-row');
+  var productRows = document.getElementsByClassName('product-rows')[0];
+  var cartImage = document.getElementsByClassName('cart-image');
+  
+  for (var i = 0; i < cartImage.length; i++){
+    if (cartImage[i].src == imageSrc){
+      alert ('This item has already been added to the cart')
+      return;
+    }
+  }
+  
+  var cartRowItems = `
+  <div class="product-row">
+        <img class="cart-image" src="${imageSrc}" alt="">
+        <span class ="cart-price">${price}</span>
+        <input class="product-quantity" type="number" value="1">
+        <button class="remove-btn">Remove</button>
+        </div>
+        
+      `
+  productRow.innerHTML = cartRowItems;
+  productRows.append(productRow);
+  productRow.getElementsByClassName('remove-btn')[0].addEventListener('click', removeItem)
+  productRow.getElementsByClassName('product-quantity')[0].addEventListener('change', changeQuantity)
+  updateCartPrice()
+}
+// end of add products to cart
+// Remove products from cart
+const removeBtn = document.getElementsByClassName('remove-btn');
+for (var i = 0; i < removeBtn.length; i++) {
+  button = removeBtn[i]
+  button.addEventListener('click', removeItem)
+}
+
+function removeItem (event) {
+  btnClicked = event.target
+  btnClicked.parentElement.parentElement.remove()
+  updateCartPrice()
+}
+// update quantity input
+var quantityInput = document.getElementsByClassName('product-quantity')[0];
+
+for (var i = 0; i < quantityInput; i++){
+  input = quantityInput[i]
+  input.addEventListener('change', changeQuantity)
+}
+
+function changeQuantity(event) {
+  var input = event.target
+  if (isNaN(input.value) || input.value <= 0){
+    input.value = 1
+  }
+  updateCartPrice()
+}
+// end of update quantity input
+
+// update total price
+function updateCartPrice() {
+  var total = 0
+  for (var i = 0; i < productRow.length; i += 2) {
+    cartRow = productRow[i]
+  var priceElement = cartRow.getElementsByClassName('cart-price')[0]
+  var quantityElement = cartRow.getElementsByClassName('product-quantity')[0]
+  var price = parseFloat(priceElement.innerText.replace('R', ''))
+  var quantity = quantityElement.value
+  total = total + (price * quantity )
+    
+  }
+  document.getElementsByClassName('total-price')[0].innerText =  'R' + total
+
+document.getElementsByClassName('cart-quantity')[0].textContent = i /= 2
+}
+// end of update total price
+
+// purchase items
+const purchaseBtn = document.querySelector('.purchase-btn');
+
+const closeCartModal = document.querySelector('.cart-modal');
+
+purchaseBtn.addEventListener('click', purchaseBtnClicked)
+
+function purchaseBtnClicked () {
+  alert ('Thank you for your purchase');
+  cartModalOverlay.style.transform= 'translateX(-100%)'
+ var cartItems = document.getElementsByClassName('product-rows')[0]
+ while (cartItems.hasChildNodes()) {
+   cartItems.removeChild(cartItems.firstChild)
+   
+ }
+  updateCartPrice()
+}
+// end of purchase items
+
+//alert user if cart is empty
 
     </script>
 
