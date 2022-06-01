@@ -1,6 +1,358 @@
-  
-      
-    
+#bottom{
+
+  width: 100%;
+  height: 10%;
+  background-color:red;
+  margin-top:50% ;
+ 
+}  
+#bottom1{
+
+  width: 100%;
+  height: 10%;
+  background-color:red;
+  margin-top:50% ;
+ 
+}  
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay1 {
+  height: 80%;
+  width: 100%;
+  margin-top: 5%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background-color: white;
+}
+
+.overlay-content1 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay1 .closebtn1 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay2 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: white;
+}
+
+.overlay-content2 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay2 .closebtn2 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay3 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color:white;
+}
+
+.overlay-content3 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay3 .closebtn3 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay4 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: white;
+}
+
+.overlay-content4 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay4 .closebtn4 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay5 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: white;
+}
+
+.overlay-content5 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay5 .closebtn5 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay6 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: white;
+}
+
+.overlay-content6 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay6 .closebtn6 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.overlay7 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: white;
+}
+
+.overlay-content7 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay7 .closebtn7 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+.count {
+  position: absolute;
+  background-color: rgba(212,7,10,1.00);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  padding: 2px;
+  color: #fff;
+  font-weight: 300;
+  display:none;
+  }
+  #market {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    padding: 60px 0;
+    margin: 4% auto;
+    top: 20%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    #addbtn{
+      margin-top: 1%;
+      float: left;
+      margin-left: 5%;
+    }  
+    #add1{
+      height: 100%;
+      width: 100%;
+      background-color: red;
+    }
     #top{
         height:100%;
         width:100%;
@@ -149,8 +501,8 @@
             width:75%;
             height: 100%;
             margin-top: 0%;
-            overflow-x: hidden;
-           overflow-y: hidden;
+            overflow-x:hidden;
+           overflow-y:hidden;
             white-space: nowrap;
                 -webkit-overflow-scrolling: touch;
           
@@ -193,68 +545,68 @@
        
        #b1{
            margin-top: 0%;
-           height: 80%;
-           width: 15%;
+           height: 55%;
+           width: 10%;
            float: left;
-           background-color: transparent;
+           background-color:rebeccapurple;
            margin-left: 5%;
            border-radius: 30px 30px 30px 30px;
        }
 
        #b2{
         margin-top: 0%;
-        height: 80%;
-        width: 15%;
+        height: 55%;
+        width: 10%;
         float: left;
+        background-color:rebeccapurple;
         margin-left: 5%;
-        background-color: transparent;
         border-radius: 30px 30px 30px 30px;
     }
     #b3{
-        margin-top: 0%;
-        height: 80%;
-        width: 15%;
-        float: left;
-        margin-left: 5%;
-        background-color: transparent;
-        border-radius: 30px 30px 30px 30px;
+      margin-top: 0%;
+           height: 55%;
+           width: 10%;
+           float: left;
+           background-color:rebeccapurple;
+           margin-left: 5%;
+           border-radius: 30px 30px 30px 30px;
     }
     #b4{
-        margin-top: 0%;
-        height: 80%;
-        width: 15%;
-        float: left;
-        margin-left: 5%;
-        background-color: transparent;
-        border-radius: 30px 30px 30px 30px;
+      margin-top: 0%;
+      height: 55%;
+      width: 10%;
+      float: left;
+      background-color:rebeccapurple;
+      margin-left: 5%;
+      border-radius: 30px 30px 30px 30px;
     }
     #b5{
-        margin-top: 0%;
-        height: 80%;
-        width: 15%;
-        float: left;
-        margin-left: 5%;
-        background-color: transparent;
-        border-radius: 30px 30px 30px 30px;
+      margin-top: 0%;
+      height: 55%;
+      width: 10%;
+      float: left;
+      background-color:rebeccapurple;
+      margin-left: 5%;
+      border-radius: 30px 30px 30px 30px;
     }
     #b6{
-        margin-top: 0%;
-        height: 80%;
-        width: 15%;
-        float: left;
-        margin-left: 5%;
-        background-color: transparent;
-        border-radius: 30px 30px 30px 30px;
+      margin-top: 0%;
+      height: 55%;
+      width: 10%;
+      float: left;
+      background-color:rebeccapurple;
+      margin-left: 5%;
+      border-radius: 30px 30px 30px 30px;
         
     }
     #b7{
-        margin-top: 0%;
-        height: 80%;
-        width: 15%;
-        float: left;
-        margin-left: 5%;
-        background-color: transparent;
-        border-radius: 30px 30px 30px 30px;
+      margin-top: 0%;
+      height: 55%;
+      width: 10%;
+      float: left;
+      background-color:rebeccapurple;
+      margin-left: 5%;
+      border-radius: 30px 30px 30px 30px;
     }
        #imgb1{
            height: 100%;
@@ -403,7 +755,8 @@
         margin-top: 0%;
          height: 5%;
          width: 80%;
-        
+        background-color: aqua;
+       display: block;
          float:right;
      }
      #nh41,#nh42{
@@ -414,12 +767,12 @@
      #sqricon{
     
         float: right;
-         margin-right: 4%;
+         margin-right: 5%;
          margin-top: 1%;
          width: 15px;
             height: 15px;
      }
-     button{
+     #button1s{
          float: right;
          margin-right: 5%;
          margin-top: 0.5%;
@@ -531,9 +884,9 @@
 }
 #namentop1,#namentop2,#namentop4,#namentop5,#namentop6,#namentop6,#namentop7{
     width: 100%;
-    height: 20%;
+    height: 10%;
     background-color:transparent;
-    margin-top: 138%;
+    margin-top: 0%;
 }
 #imgb11,#imgb12,#imgb13,#imgb14{
     width: 30%;
@@ -544,7 +897,7 @@
 
 }
 #divpar1,#divpar2,#divpar3,#divpar4,#divpar5,#divpar6,#divpar7{
-    height: 40%;
+    height: 60%;
     width: 80%;
     float: left;
     margin-top: 2%;
@@ -588,301 +941,381 @@ border-width: 5px;
 
 
 
-/*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+    .overlayc {
+      height: 0%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: white;
+      overflow-y: hidden;
+      transition: 0.5s;
+    }
+    
+    .overlay-contentc {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlayc .closebtnc {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
   
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-
-
-  /*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal1 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content1 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close1 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close1:hover,
-  .close1:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-
-
-  /*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content2 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close2 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close2:hover,
-  .close2:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-   
-
-
-  /*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal3 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content3 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close3 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close3:hover,
-  .close3:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
     
 
 
-  /*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal4 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content4 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close4 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close4:hover,
-  .close4:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+
+
+    .cart-btn {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    #cart {
+      position: relative;
+      font-size: 2rem;
+      cursor: pointer;
+      margin: 1em 4em 0 0;
+    }
+    
+    .cart-quantity {
+      color: white;
+      background-color: red;
+      padding: .2em .3em;
+      position: absolute;
+      margin: .8em 7.5em 0 0;
+      right: 0;
+      border: solid 2px red;
+      border-radius: 15px;
+      font-weight: bolder;
+    }
+    .add-to-cart {
+      background-color: black;
+      color: white;
      
+      top: 65%;
+     
+     
+      font-weight: bolder;
+      font-size: 1.2rem
+    }
+    
+    .product-price {
+      padding-top: 1em;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }    
 
-
-  /*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal5 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content5 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close5 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close5:hover,
-  .close5:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+    .cart-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      z-index: 2;
+      transform: translateX(-200%);
+      transition: .5s ease-out;
       
+    }
+    
+    .cart-modal {
+      height: 100vh;
+      width: 50%;
+      background-color: rgb(50,50,50);
+      float: right;
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+    
+    #close-btn {
+      font-size: 1.5rem;
+      float: right;
+      margin: .5em 2em 0 0;
+      color: white;
+      cursor: pointer;
+    }
+    
+    .cart-is-empty {
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1em;
+      display: none;
+      
+    }
+    .total {
+      text-align: center;
+      margin: 2em 0 2em 0;
+    /*   display: none; */
+    }
+    
+    .cart-total {
+      color: white;
+    }
+    
+    .total-price {
+      color: white;
+      font-size: 2rem;
+      display: block;
+    }
+    
+    .purchase-btn {
+      font-size: 1rem;
+      font-weight: bolder;
+      background-color: green;
+      color: white;
+      padding: 1em 2em;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      margin: 2em 0 1em 0;
+    }
+    
+    .product-rows {
+      margin-top: 3em;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    
+    .product-row {
+      display: flex;
+      align-items: center;
+    }
+    
+    .cart-image {
+      width: 10rem;
+      margin: 1em;
+    }
+    
+    .cart-price {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bolder;
+    }
+    
+    .product-quantity {
+      width: 4rem;
+      font-size: 2rem;
+      margin-left: 3rem;
+    }
+    
+    .remove-btn {
+      padding: 1em 2em;
+      background-color: red;
+      color: white;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      margin-left: 3rem;
+      font-weight: bolder;
+      font-size: 1rem;
+    }
+    
+    .remove-btn:active {
+      transform: translateY(5px);
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{ margin: 0; padding: 0;}
+
+.intro{
+   background: #fff;
+   padding: 60px 30px;
+   color: #333;
+   margin-bottom: 15px;
+   line-height: 1.5;
+   text-align: center;
+}
+.intro h1 {
+   font-size: 18pt;
+   padding-bottom: 15px;
+
+}
+.intro p{
+   font-size: 14px;
+}
+
+.action{
+   text-align: center;
+   display: block;
+   margin-top: 20px;
+}
+
+a.btn {
+  text-decoration: none;
+  color: #666;
+   border: 2px solid #666;
+   padding: 10px 15px;
+   display: inline-block;
+   margin-left: 5px;
+}
+a.btn:hover{
+   background: #666;
+   color: #fff;
+    transition: .3s;
+-webkit-transition: .3s;
+}
+.btn:before{
+  font-family: FontAwesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.github:before{content: "\f09b"}
+.down:before{content: "\f019"}
+.back:before{content:"\f112"}
+.credit{
+    background: #fff;
+    padding: 12px;
+    font-size: 9pt;
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+
+}
+.credit span:before{
+   font-family: FontAwesome;
+   color: #e41b17;
+   content: "\f004";
 
 
-  /*///////////////////////////////////////////////////////////////////////////////*/
-/* The Modal (background) */
-.modal6 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+}
+.credit a{
+   color: #333;
+   text-decoration: none;
+}
+.credit a:hover{
+   color: #1DBF73; 
+}
+.credit a:hover:after{
+    font-family: FontAwesome;
+    content: "\f08e";
+    font-size: 9pt;
+    position: absolute;
+    margin: 3px;
+}
+main{
+  background: #fff;
+  padding:: 20px;
   
-  /* Modal Content */
-  .modal-content6 {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 70%;
-  }
-  
-  /* The Close Button */
-  .close6 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close6:hover,
-  .close6:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+
+article li{
+   color: #444;
+   font-size: 15px;
+   margin-left: 33px;
+   line-height: 1.5;
+   padding: 5px;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article p{
+   padding: 14px;
+   color: #333;
+}
+article p{
+   font-size: 15px;
+    line-height: 1.5;
+}
+ 
+@media only screen and (min-width: 1280px){
+    main{
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto; 
+      padding: 24px;
+    }
+
+
+}
+
+.set-overlayer,
+.set-glass,
+.set-sticky {
+	cursor: pointer;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 15px;
+	color: #333;
+	font-size: 16px;
+}
+.set-overlayer:after,
+.set-glass:after,
+.to-active:after,
+.set-sticky:after {
+	font-family: FontAwesome;
+	font-size: 18pt;
+	position: relative;
+	float: right;
+}
+.set-overlayer:after,
+.set-glass:after,
+.set-sticky:after {
+	content: "\f204";
+	transition: .6s;
+}
+
+.to-active:after {
+	content: "\f205";
+	color: #008080;
+	transition: .6s;
+}
+.set-overlayer,
+.set-glass,
+.set-sticky,
+.source,
+.theme-tray {
+	margin: 10px;
+	background: #f2f2f2;
+	border-radius: 5px;
+	border: 2px solid #f1f1f1;
+	box-sizing: border-box;
+}
+/* Syntax Highlighter*/
+
+pre.prettyprint {
+	padding: 15px !important;
+   margin: 10px;
+	border: 0 !important;
+  background: #f2f2f2;
+  overflow: auto;
+}
+
+.source {
+	white-space: pre;
+	overflow: auto;
+	max-height: 400px;
+}
+code{
+    border:1px solid #ddd;
+    padding: 2px;
+    border-radius: 2px;
+}

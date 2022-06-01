@@ -5,6 +5,8 @@
 
     <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="styling/rquery.css">
+    <link rel="stylesheet" href="syling/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
    
     </head>
     <body onload="changeTheImage()">
@@ -12,17 +14,42 @@
         
     <div id="top">
         <nav>
+          
+          
+              <div class="cart-btn">
+                <i id="cart" class="fas fa-shopping-cart"></i>
+                  <span class ="cart-quantity">0</span>
+              </div>
 
-           
 
-            <a href="cart.html"><img src="images/-shopping-cart_90604.png" id="scart"></a>
+
             <img src="images/fourdots_80930.png" id="sqricon">
             <h4 id="nh41"><a href="">Featured</a></h4>
             <h4 id="nh42"><a href="">New Release</a></h4>
-            <button type="submit"></button>
+            <button type="submit" id="button1s"></button>
             <input type="search" placeholder="Search..." id="sc">
             <img src="images/rrlogo.png" id="amazonl">
         </nav>
+
+        <div class="cart-modal-overlay">
+            <div class="cart-modal">
+              <i id="close-btn" class="fas fa-times"></i>
+                <h1 class="cart-is-empty">Cart is empty</h1>
+              
+                <div class="product-rows">
+                </div>
+                <div class="total">
+                  <h1 class="cart-total">TOTAL</h1>
+                    <span class="total-price">$0</span>
+                      <button class="purchase-btn">PURCHASE</button>
+                </div>
+              </div>
+        </div>
+
+
+
+
+
         <div id="books">
             <div id="fbooks">
                
@@ -79,34 +106,23 @@
                     <h3 id="nr1"></h3>
                     <div id="xscroll">
 
-   <div id="b1"><button id="myBtn" onclick="F1()"><img src="images/pro_pbid_19944.webp" id="imgb1"></button>
-    <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <img src="images/pro_pbid_19944.webp" id="imgb11">
-         <center> <div id="divpar1"><h1 id="topicss1"></h1><center>
-             <pre id="discr1">
-
-                Lies can be toxic…
-Gabe is a shrewd businessman to one of Las Vegas’ upscale resort and casinos. 
-What he wants, he naturally takes—and he wants Nina. Held in a bitter divorce, 
-Gabe finds it difficult to put his trust in anyone. Until Nina. But there’s 
-one person keeping him from having her—his soon-to-be ex-wife.
-
-
-
-             </pre></center>
+   <div id="b1">
+       
+    <div id="myNav1" class="overlay1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+        <div class="overlay-content1">
+          <a href="#">1</a>
+          <div class="card-1 card">
            
-            </div></center>
-            
+              <button class="add-to-cart">Add to cart</button>
+                <span class="product-price">$1395</span>
+          </div>
          
         </div>
-      
       </div>
-      
-    <script src="popup.js"></script>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav1()"><img src="images/pro_pbid_19944.webp" id="imgb1"></span>
+    
+
     <div id="namentop1">
         <h4 id="h4b1"></h4>
                 
@@ -114,46 +130,48 @@ one person keeping him from having her—his soon-to-be ex-wife.
         <center><div id="label2">Thriller</div></center>
 
     </div>
-    
+
+</div>
    
-                </div>
                 
-                    <div id="b2"><button id="myBtn1" onclick="F2()"><img src="images/pro_pbid_1199739.webp" id="imgb2"></button>
-                        <div id="myModal1" class="modal1">
-                    
-                            <!-- Modal content -->
-                            <div class="modal-content1">
-                              <span class="close1">&times;</span>
-                              <img src="images/pro_pbid_1199739.webp" id="imgb12">
-                             <center> <div id="divpar2"><h1>2</h1></div></center>
-                             <center><input type="button" value="Add To Cart" id="adcbtn2"></center>
-                            </div>
-                          
-                          </div>
-                          <script src="popup.js">
-                             
-                            </script>
-                  <div id="namentop1">
-                    <h4 id="h4b2"></h4>
+                    <div id="b2">
+                        
+                        
+                        <div id="myNav2" class="overlay2">
+                            <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+                            <div class="overlay-content2">
+                              <a href="#">2</a>
                             
-                    <p align="center" id="blbooksname2"></p>
-                    <center><div id="label2">Thriller</div></center>
-            
-                </div>
-                </div>
-                <div id="b3"><button id="myBtn3" onclick="F3()"><img src="images/pro_pbid_5297.webp" id="imgb3"></button>
-                    <div id="myModal2" class="modal2">
-                    
-                        <!-- Modal content -->
-                        <div class="modal-content2">
-                          <span class="close2">&times;</span>
-                          <center><img src="images/pro_pbid_5297.webp" id="imgb13"></center>
-                         <center> <div id="divpar3"><h1>3</h1></div></center>
-                         <center><input type="button" value="Add To Cart" id="adcbtn3"></center>
-                        </div>
+                            </div>
+                          </div>
+                          <span style="font-size:30px;cursor:pointer" onclick="openNav2()"><img src="images/pro_pbid_1199739.webp" id="imgb2"></span>
+                        
                       
+                        <div id="namentop1">
+                            <h4 id="h4b2"></h4>
+                                    
+                            <p align="center" id="blbooksname2"></p>
+                            <center><div id="label2">Thriller</div></center>
+                    
+                        </div>
+                    
+                         
+                 
+                </div>
+                <div id="b3">
+                    
+                    
+                    <div id="myNav3" class="overlay3">
+                        <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times;</a>
+                        <div class="overlay-content3">
+                          <a href="#">3</a>
+                         
+                        </div>
                       </div>
-                      <script src="popup.js"></script>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav3()"><img src="images/pro_pbid_5297.webp" id="imgb3"></span>
+                    
+                    
+                   
 
 <div id="namentop1">
                     
@@ -167,20 +185,21 @@ one person keeping him from having her—his soon-to-be ex-wife.
 
 
 
-                <div id="b4"><button id="myBtn4" onclick="F4()"><img src="images/pro_pbid_6432.webp" id="imgb4"></button>
+                <div id="b4">
                     
-                    <div id="myModal3" class="modal3">
                     
-                        <!-- Modal content -->
-                        <div class="modal-content3">
-                          <span class="close3">&times;</span>
-                          <img src="images/pro_pbid_6432.webp" id="imgb14">
-                         <center> <div id="divpar4"><h1>4</h1></div></center>
-                         <center><input type="button" value="Add To Cart" id="adcbtn4"></center>
+                    <div id="myNav4" class="overlay4">
+                        <a href="javascript:void(0)" class="closebtn4" onclick="closeNav4()">&times;</a>
+                        <div class="overlay-content4">
+                          <a href="#">4</a>
+                         
                         </div>
-                    </div>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav4()"> <img src="images/pro_pbid_6432.webp" id="imgb4"></span>
 
-                    <script src="popup.js"></script>
+                   
+                    
+                    
                     <div id="namentop4">
                     <h4 id="h4b4"></h4>
                 <p align="center" id="blbooksname4"></p>
@@ -192,19 +211,19 @@ one person keeping him from having her—his soon-to-be ex-wife.
 
 
 
-                <div id="b5"><button id="myBtn5" onclick="F5()"><img src="images/pro_pbid_9300.webp" id="imgb5"></button>
+                <div id="b5">
                     
-                    <div id="myModal4" class="modal4">
-                    
-                        <!-- Modal content -->
-                        <div class="modal-content4">
-                          <span class="close4">&times;</span>
-                         <img src="images/pro_pbid_9300.webp" id="imgb14">
-                         <center> <div id="divpar5"><h1>5</h1></div></center>
-                         <center><input type="button" value="Add To Cart" id="adcbtn5"></center>
+                    <div id="myNav5" class="overlay5">
+                        <a href="javascript:void(0)" class="closebtn5" onclick="closeNav5()">&times;</a>
+                        <div class="overlay-content5">
+                          <a href="#">5</a>
+                         
                         </div>
-                    </div>
-                    <script src="popup.js"></script>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav5()"> <img src="images/pro_pbid_9300.webp" id="imgb5"></span>
+                   
+                    
+                    
                     <div id="namentop5">
                     <h4 id="h4b5"></h4>
                     
@@ -215,19 +234,19 @@ one person keeping him from having her—his soon-to-be ex-wife.
                 </div>
 
 
-                <div id="b6"><button id="myBtn6" onclick="F6()"><img src="images/pro_pbid_1058593.webp" id="imgb6"></button>
+                <div id="b6">
                     
-                    <div id="myModal5" class="modal5">
                     
-                        <!-- Modal content -->
-                        <div class="modal-content5">
-                          <span class="close5">&times;</span>
-                         <img src="images/pro_pbid_1058593.webp" id="imgb14">
-                         <center> <div id="divpar6"><h1>6</h1></div></center>
-                         <center><input type="button" value="Add To Cart" id="adcbtn6"></center>
+                    
+                    <div id="myNav6" class="overlay6">
+                        <a href="javascript:void(0)" class="closebtn6" onclick="closeNav6()">&times;</a>
+                        <div class="overlay-content6">
+                          <a href="#">6</a>
+                         
                         </div>
-                    </div>
-                    <script src="popup.js"></script>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav6()"><img src="images/pro_pbid_1058593.webp" id="imgb6"></span>
+                    
                     
                     
                     <div id="namentop6">
@@ -241,19 +260,21 @@ one person keeping him from having her—his soon-to-be ex-wife.
 
 
 
-                <div id="b7"><button id="myBtn7" onclick="F7()"><img src="images/pro_pbid_4479470.webp" id="imgb4"></button>
-                    <div id="myModal6" class="modal6">
+                <div id="b7">
                     
-                        <!-- Modal content -->
-                        <div class="modal-content6">
-                          <span class="close6">&times;</span>
-                        <img src="images/pro_pbid_4479470.webp" id="imgb14">
-                         <center> <div id="divpar7"><h1>7</h1></div></center>
-                         <center><input type="button" value="Add To Cart" id="adcbtn7"></center>
+                    <div id="myNav7" class="overlay7">
+                        <a href="javascript:void(0)" class="closebtn7" onclick="closeNav7()">&times;</a>
+                        <div class="overlay-content7">
+                          <a href="#">7</a>
+                         
                         </div>
-                    </div>
-                    <script src="popup.js"> </script>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav7()"> <img src="images/pro_pbid_4479470.webp" id="imgb4"></span>
+
+                   
+                
                     
+                        
                     
                      <div id="namentop7">
                     <h4 id="h4b7">The Deal</h4>
@@ -352,11 +373,86 @@ document.getElementById('namelog').innerHTML=[0];
     <h3 id="blogo">Product of<br><img src="images/amazon-logo-transparent.png" id="bimglogo"></h3>
  
 
-
    
     </body>
     <script src="myscripts/log.js"> </script>
     <script>
-        document.getElementById('namelog').innerHTML = sessionStorage.getItem('Name');
+      function openNav1() {
+  document.getElementById("myNav1").style.display = "block";
+}
+
+function closeNav1() {
+  document.getElementById("myNav1").style.display = "none";
+}
+
+function openNav2() {
+  document.getElementById("myNav2").style.display = "block";
+}
+
+function closeNav2() {
+  document.getElementById("myNav2").style.display = "none";
+}
+function openNav3() {
+  document.getElementById("myNav3").style.display = "block";
+}
+
+function closeNav3() {
+  document.getElementById("myNav3").style.display = "none";
+}
+function openNav4() {
+  document.getElementById("myNav4").style.display = "block";
+}
+
+function closeNav4() {
+  document.getElementById("myNav4").style.display = "none";
+}
+function openNav5() {
+  document.getElementById("myNav5").style.display = "block";
+}
+
+function closeNav5() {
+  document.getElementById("myNav5").style.display = "none";
+}
+function openNav6() {
+  document.getElementById("myNav6").style.display = "block";
+}
+
+function closeNav6() {
+  document.getElementById("myNav6").style.display = "none";
+}
+function openNav7() {
+  document.getElementById("myNav7").style.display = "block";
+}
+
+function closeNav7() {
+  document.getElementById("myNav7").style.display = "none";
+}
+
+const cart = document.querySelector('#cart');
+const cartModalOverlay = document.querySelector('.cart-modal-overlay');
+
+cart.addEventListener('click', () => {
+  if (cartModalOverlay.style.transform === 'translateX(-200%)'){
+    cartModalOverlay.style.transform = 'translateX(0)';
+  } else {
+    cartModalOverlay.style.transform = 'translateX(-200%)';
+  }
+})
+
+const closeBtn = document.querySelector ('#close-btn');
+
+closeBtn.addEventListener('click', () => {
+  cartModalOverlay.style.transform = 'translateX(-200%)';
+});
+
+cartModalOverlay.addEventListener('click', (e) => {
+  if (e.target.classList.contains('cart-modal-overlay')){
+    cartModalOverlay.style.transform = 'translateX(-200%)'
+  }
+})
+
+
     </script>
+
+   
     </html>
