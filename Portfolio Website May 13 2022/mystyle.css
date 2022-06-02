@@ -132,7 +132,7 @@
   height: 50%;
   width: 50%;
   margin-top: 15%;
-  margin-left: 55%;
+  margin-left: 25%;
   display: none;
   position: fixed;
   z-index: 1;
@@ -493,7 +493,7 @@
         }
         #bslide{
             position: fixed;
-          right: 18%;
+          right: 21%;
             top: 75%;
             height: 80px;
             width: 80px;
@@ -537,7 +537,7 @@
         #fame{
             background-color: lightgray ;
             width: 20%;
-            height: 45%;
+            height: 35%;
             float: right;
             right: 0%;
             border-radius: 60px 0px 0px 60px;
@@ -639,7 +639,7 @@
            width: 100%;
            background-color:transparent;
            height: 20%;
-           margin-top: 0%;
+           margin-top: 3%;
     
        }
     
@@ -768,9 +768,10 @@
         margin-top: 0%;
          height: 5%;
          width: 80%;
-        background-color: aqua;
+        background-color: transparent;
        display: block;
          float:right;
+         font-size: 150%;
      }
      #nh41,#nh42{
          float: right;
@@ -780,10 +781,10 @@
      #sqricon{
     
         float: right;
-         margin-right: 5%;
+         margin-right: 7%;
          margin-top: 1%;
-         width: 15px;
-            height: 15px;
+         width: 20px;
+            height: 20px;
      }
      #button1s{
          float: right;
@@ -996,39 +997,42 @@ border-width: 5px;
     }
   
     
-
-
-
-
-    .cart-btn {
-      position: relative;
-      display: flex;
-      justify-content: flex-end;
-    }
     
     #cart {
       position: relative;
       font-size: 2rem;
       cursor: pointer;
       margin: 1em 4em 0 0;
+      float: right;
+      margin-right: 2%;
+      margin-top: 0.5%;
+      background-color: transparent;
+      height: 70%;
+      width: 5%;
     }
     
     .cart-quantity {
+      float: right;
+      margin-right: 0%;
       color: white;
-      background-color: red;
-      padding: .2em .3em;
+      background-color: orange;
+     margin-top: 0.5%;
       position: absolute;
-      margin: .8em 7.5em 0 0;
-      right: 0;
-      border: solid 2px red;
+     width: 30%;
+     height: 55%;
+      border: solid 2px orange;
       border-radius: 15px;
       font-weight: bolder;
+      font-size: 60%;
+      text-align: center;
     }
     .add-to-cart {
-      background-color: black;
+      background-color: orange;
       color: white;
      
-      top: 65%;
+      margin-top: 40%;
+      border-color: white;
+      margin-left: 20%;
      
      
       font-weight: bolder;
@@ -1036,7 +1040,7 @@ border-width: 5px;
     }
     
     .product-price {
-      padding-top: 1em;
+     margin-top: 80%;
       font-weight: bold;
       font-size: 1.5rem;
     }    
@@ -1053,11 +1057,16 @@ border-width: 5px;
       transition: .5s ease-out;
       
     }
+    pre{
+      float: left;
+      position: absolute;
+      margin-left: 0%;
+    }
     
     .cart-modal {
       height: 100vh;
-      width: 50%;
-      background-color: rgb(50,50,50);
+      width: 100%;
+      background-color:lightslategray;
       float: right;
       overflow: scroll;
       overflow-x: hidden;
@@ -1067,9 +1076,23 @@ border-width: 5px;
       font-size: 1.5rem;
       float: right;
       margin: .5em 2em 0 0;
-      color: white;
+      color: orange;
       cursor: pointer;
     }
+    #isbn{
+      height: 10%;
+      width: 15%;
+      background-color: yellow;
+      margin-left: 50%;
+      margin-top: 2% ;
+    }
+    #imgisb{
+      height: 100%;
+      width: 100%;
+    }
+  #byw{
+    color: orange;
+  }
     
     .cart-is-empty {
       color: white;
@@ -1333,6 +1356,22 @@ code{
     border-radius: 2px;
 }
 .product-image {
-  height: 20%;
+  height: 70%;
+  float: left;
+  margin-left: 2%;
+  top: 0%;
 
+}
+#popdiv{
+
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+#description{
+  background-color: white;
+  height: 70%;
+  width: 50%;
+  float: right;
+  margin-right: 20%;
 }

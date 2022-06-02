@@ -52,8 +52,10 @@ document.getElementById("blbooksname6").innerHTML=bl_books_names[5];
 document.getElementById("blbooksname7").innerHTML=bl_books_names[6];
 
 
-const side_div=["Welcome back"];
+const side_div=["Welcome bac"];
 document.getElementById("Welcomeid").innerHTML=side_div[0];
+var namell=sessionStorage.getItem("lName");
+document.getElementById("namelog").innerHTML=namell;
 
 const logandreg=["LOGIN FORM","REGISTRATION FORM"];
 document.getElementById('logt').innerHTML=logandreg[0];
